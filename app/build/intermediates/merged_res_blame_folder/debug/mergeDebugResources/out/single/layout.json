@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "com.shishusneh.app-mergeDebugResources-55:/layout/fragment_feeding.xml",
+        "source": "com.shishusneh.app-main-58:/layout/fragment_feeding.xml"
+    },
+    {
+        "merged": "com.shishusneh.app-mergeDebugResources-55:/layout/fragment_milestones.xml",
+        "source": "com.shishusneh.app-main-58:/layout/fragment_milestones.xml"
+    },
+    {
+        "merged": "com.shishusneh.app-mergeDebugResources-55:/layout/activity_splash.xml",
+        "source": "com.shishusneh.app-main-58:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.shishusneh.app-mergeDebugResources-55:/layout/activity_onboarding.xml",
+        "source": "com.shishusneh.app-main-58:/layout/activity_onboarding.xml"
+    },
+    {
+        "merged": "com.shishusneh.app-mergeDebugResources-55:/layout/activity_sign_in.xml",
+        "source": "com.shishusneh.app-main-58:/layout/activity_sign_in.xml"
+    },
+    {
+        "merged": "com.shishusneh.app-mergeDebugResources-55:/layout/item_milestone.xml",
+        "source": "com.shishusneh.app-main-58:/layout/item_milestone.xml"
+    },
+    {
+        "merged": "com.shishusneh.app-mergeDebugResources-55:/layout/item_feeding_tip.xml",
+        "source": "com.shishusneh.app-main-58:/layout/item_feeding_tip.xml"
+    },
+    {
+        "merged": "com.shishusneh.app-mergeDebugResources-55:/layout/activity_main.xml",
+        "source": "com.shishusneh.app-main-58:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.shishusneh.app-mergeDebugResources-55:/layout/activity_intro.xml",
+        "source": "com.shishusneh.app-main-58:/layout/activity_intro.xml"
+    },
+    {
+        "merged": "com.shishusneh.app-mergeDebugResources-55:/layout/item_vaccine.xml",
+        "source": "com.shishusneh.app-main-58:/layout/item_vaccine.xml"
+    },
+    {
+        "merged": "com.shishusneh.app-mergeDebugResources-55:/layout/fragment_growth.xml",
+        "source": "com.shishusneh.app-main-58:/layout/fragment_growth.xml"
+    },
+    {
+        "merged": "com.shishusneh.app-mergeDebugResources-55:/layout/fragment_dashboard.xml",
+        "source": "com.shishusneh.app-main-58:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.shishusneh.app-mergeDebugResources-55:/layout/activity_sign_up.xml",
+        "source": "com.shishusneh.app-main-58:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.shishusneh.app-mergeDebugResources-55:/layout/item_growth.xml",
+        "source": "com.shishusneh.app-main-58:/layout/item_growth.xml"
+    },
+    {
+        "merged": "com.shishusneh.app-mergeDebugResources-55:/layout/fragment_vaccines.xml",
+        "source": "com.shishusneh.app-main-58:/layout/fragment_vaccines.xml"
+    }
+]

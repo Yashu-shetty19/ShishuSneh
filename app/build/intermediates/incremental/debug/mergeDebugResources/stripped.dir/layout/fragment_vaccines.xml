@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/cream"
+    android:padding="16dp">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="IMMUNIZATION" android:textStyle="bold"
+        android:textSize="11sp" android:textColor="@color/text_muted"
+        android:layout_marginStart="4dp" android:layout_marginTop="8dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Vaccine timeline 💉"
+        android:textStyle="bold" android:textSize="22sp"
+        android:textColor="@color/text_primary"
+        android:layout_marginStart="4dp"/>
+    <TextView android:id="@+id/summary"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textColor="@color/text_muted" android:textSize="12sp"
+        android:layout_marginStart="4dp" android:layout_marginBottom="8dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

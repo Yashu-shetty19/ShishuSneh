@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand palette -->
+    <color name="pink">#F8C8DC</color>
+    <color name="pink_dark">#E8588A</color>
+    <color name="mint">#CDEAC0</color>
+    <color name="mint_dark">#5BAA70</color>
+    <color name="sky">#B5EAEA</color>
+    <color name="sky_dark">#5B8DEF</color>
+    <color name="cream">#FFF9F9</color>
+    <color name="warm">#FFE2B5</color>
+    <color name="danger">#F4A6A6</color>
+
+    <color name="text_primary">#3B2A36</color>
+    <color name="text_muted">#7C6976</color>
+    <color name="white">#FFFFFF</color>
+    <color name="card_border">#F0E4EA</color>
+</resources>

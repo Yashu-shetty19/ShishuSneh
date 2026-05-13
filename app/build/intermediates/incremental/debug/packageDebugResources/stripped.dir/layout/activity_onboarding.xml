@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <TextView android:id="@+id/title"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            android:text="Welcome to Shishu-Sneh 💗"
+            android:textSize="26sp" android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="40dp"/>
+
+        <TextView android:id="@+id/subtitle"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            android:text="Your baby's first year, with sneh."
+            android:textSize="14sp" android:textColor="@color/text_muted"
+            app:layout_constraintTop_toBottomOf="@id/title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="6dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/nameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Baby's name"
+            android:layout_marginTop="32dp"
+            app:boxCornerRadiusTopStart="16dp"
+            app:boxCornerRadiusTopEnd="16dp"
+            app:boxCornerRadiusBottomStart="16dp"
+            app:boxCornerRadiusBottomEnd="16dp"
+            app:layout_constraintTop_toBottomOf="@id/subtitle">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/nameInput"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:inputType="textPersonName"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView android:id="@+id/dobLabel"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Date of birth"
+            android:textStyle="bold" android:textColor="@color/text_primary"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@id/nameLayout"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <Button android:id="@+id/dobButton"
+            android:layout_width="match_parent" android:layout_height="56dp"
+            android:text="Pick date"
+            android:background="@drawable/bg_card_sky"
+            android:textColor="@color/text_primary"
+            android:layout_marginTop="8dp"
+            android:textAllCaps="false"
+            app:layout_constraintTop_toBottomOf="@id/dobLabel"/>
+
+        <TextView android:id="@+id/dobError"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textColor="@color/pink_dark" android:textSize="12sp"
+            app:layout_constraintTop_toBottomOf="@id/dobButton"
+            android:layout_marginTop="4dp"/>
+
+        <TextView android:id="@+id/genderLabel"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Gender (optional)"
+            android:textStyle="bold" android:textColor="@color/text_primary"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@id/dobError"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <LinearLayout android:id="@+id/genderRow"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:weightSum="3"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/genderLabel">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/genderGirl"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:text="👧 Girl"
+                android:checkable="true" android:layout_marginEnd="6dp"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/genderBoy"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:text="👦 Boy"
+                android:checkable="true" android:layout_marginEnd="6dp"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/genderOther"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:text="✨ Other"
+                android:checkable="true"/>
+        </LinearLayout>
+
+        <Button android:id="@+id/continueButton"
+            android:layout_width="match_parent" android:layout_height="56dp"
+            android:text="Begin our journey 💗"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_button_primary"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@id/genderRow"/>
+
+        <TextView
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Works fully offline · Data stays on this device."
+            android:textSize="11sp" android:textColor="@color/text_muted"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/continueButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

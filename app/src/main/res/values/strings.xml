@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shishu-Sneh</string>
+    <string name="app_subtitle">Baby\'s First Year Guide</string>
+    <string name="intro_description">Track your baby\'s growth, vaccination schedules, feeding guidance, and developmental milestones with love and care.</string>
+    <string name="intro_vaccine_alert">Get automatic reminders for Polio drops, DPT, Hepatitis, and other important vaccines.</string>
+
+    <!-- Bottom nav -->
+    <string name="nav_home">Home</string>
+    <string name="nav_growth">Growth</string>
+    <string name="nav_vaccines">Vaccines</string>
+    <string name="nav_feeding">Feeding</string>
+    <string name="nav_milestones">Milestones</string>
+</resources>

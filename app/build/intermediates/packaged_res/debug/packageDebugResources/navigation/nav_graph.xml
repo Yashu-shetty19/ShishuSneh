@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment android:id="@+id/dashboardFragment"
+        android:name="com.shishusneh.app.ui.dashboard.DashboardFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_dashboard"
+        xmlns:tools="http://schemas.android.com/tools" />
+    <fragment android:id="@+id/growthFragment"
+        android:name="com.shishusneh.app.ui.growth.GrowthFragment"
+        android:label="@string/nav_growth" />
+    <fragment android:id="@+id/vaccinesFragment"
+        android:name="com.shishusneh.app.ui.vaccines.VaccinesFragment"
+        android:label="@string/nav_vaccines" />
+    <fragment android:id="@+id/feedingFragment"
+        android:name="com.shishusneh.app.ui.feeding.FeedingFragment"
+        android:label="@string/nav_feeding" />
+    <fragment android:id="@+id/milestonesFragment"
+        android:name="com.shishusneh.app.ui.milestones.MilestonesFragment"
+        android:label="@string/nav_milestones" />
+</navigation>

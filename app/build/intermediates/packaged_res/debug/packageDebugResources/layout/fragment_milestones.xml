@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/cream"
+    android:padding="16dp">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="MILESTONES" android:textStyle="bold"
+        android:textSize="11sp" android:textColor="@color/text_muted"
+        android:layout_marginStart="4dp" android:layout_marginTop="8dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Baby's journey ✨"
+        android:textStyle="bold" android:textSize="22sp"
+        android:textColor="@color/text_primary"
+        android:layout_marginStart="4dp"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:gravity="center_vertical"
+        android:background="@drawable/bg_card_mint"
+        android:padding="16dp" android:layout_marginTop="12dp">
+        <FrameLayout android:layout_width="80dp" android:layout_height="80dp">
+            <ProgressBar android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="80dp" android:layout_height="80dp"
+                android:max="100" android:progress="0"
+                android:progressDrawable="@android:drawable/progress_horizontal"/>
+            <TextView android:id="@+id/progressText"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_gravity="center" android:text="0%"
+                android:textStyle="bold" android:textSize="16sp"
+                android:textColor="@color/text_primary"/>
+        </FrameLayout>
+        <TextView android:id="@+id/summary"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:textStyle="bold" android:textColor="@color/text_primary"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1" android:layout_marginTop="10dp"/>
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="card_border">#F0E4EA</color>
+    <color name="cream">#FFF9F9</color>
+    <color name="danger">#F4A6A6</color>
+    <color name="mint">#CDEAC0</color>
+    <color name="mint_dark">#5BAA70</color>
+    <color name="pink">#F8C8DC</color>
+    <color name="pink_dark">#E8588A</color>
+    <color name="sky">#B5EAEA</color>
+    <color name="sky_dark">#5B8DEF</color>
+    <color name="text_muted">#7C6976</color>
+    <color name="text_primary">#3B2A36</color>
+    <color name="warm">#FFE2B5</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Shishu-Sneh</string>
+    <string name="app_subtitle">Baby\'s First Year Guide</string>
+    <string name="intro_description">Track your baby\'s growth, vaccination schedules, feeding guidance, and developmental milestones with love and care.</string>
+    <string name="intro_vaccine_alert">Get automatic reminders for Polio drops, DPT, Hepatitis, and other important vaccines.</string>
+    <string name="nav_feeding">Feeding</string>
+    <string name="nav_growth">Growth</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_milestones">Milestones</string>
+    <string name="nav_vaccines">Vaccines</string>
+    <style name="CardSoft">
+        <item name="android:background">@drawable/bg_card_soft</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    <style name="Theme.ShishuSneh" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/pink_dark</item>
+        <item name="colorPrimaryVariant">@color/pink</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/sky_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:colorBackground">@color/cream</item>
+        <item name="android:statusBarColor" ns1:targetApi="lollipop">@color/cream</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="m">true</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_muted</item>
+    </style>
+    <style name="Theme.ShishuSneh.NoActionBar" parent="Theme.ShishuSneh"/>
+    <style name="Theme.ShishuSneh.Splash" parent="Theme.ShishuSneh">
+        <item name="android:windowBackground">@color/cream</item>
+    </style>
+</resources>
