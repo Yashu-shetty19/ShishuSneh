@@ -85,9 +85,54 @@ This project aims to:
 - Support healthcare access in rural areas
 
 ---
+## How to Install the App on Mobile
 
+1. Connect your Android phone to the computer using USB.
+2. Enable Developer Options and USB Debugging on your phone.
+3. Open the project in Android Studio.
+4. Click the ▶ Run button.
+5. Select your mobile device.
+6. The app will install and open automatically on your phone.
+
+---
 ## Minimum Requirements
 
 - minSdk 21
 - targetSdk 34
 - Android Studio Hedgehog or later
+
+---
+## Future Enhancements
+
+- Multi-language support
+- AI-based baby health suggestions
+- Cloud backup support
+- Doctor consultation feature
+- Dark mode support
+
+---
+
+## Main Modules
+
+- Baby Profile
+- Growth Tracker
+- Vaccination Alerts
+- Immunization Calendar
+- Feeding Guide
+- Milestone Tracker
+
+---
+
+## App Highlights
+
+- Simple and mother-friendly UI
+- Works fully offline
+- Automatic vaccination reminders
+- Secure local data storage
+- Soft pastel healthcare design
+
+---
+
+## Developed For
+
+Healthcare support for new mothers and child wellness monitoring during the first year.
