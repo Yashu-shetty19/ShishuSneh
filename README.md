@@ -43,7 +43,7 @@ The app is specially designed for rural mothers with a simple and friendly inter
 - XML
 - Android Studio
 - Room Database
-- AlarmManager
+- WorkManager
 - MPAndroidChart
 - MVVM Architecture
 
