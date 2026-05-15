@@ -151,6 +151,14 @@ ShishuSneh/
 
 ---
 
+## Architecture
+
+The project follows MVVM Architecture:
+- Model → Room Database & Repository
+- View → Activities & Fragments
+- ViewModel → Handles UI logic and state
+
+  ---
 
 ## App Screenshots
 
@@ -166,7 +174,7 @@ ShishuSneh/
 ### Growth Tracker
 <img width="301" height="499" alt="WhatsApp Image 2026-05-15 at 11 04 41 AM" src="https://github.com/user-attachments/assets/0ee21741-be80-48fc-bc90-37f8b1d27bc4" />
 
-### Wisdom
+### Feeding Guide
 <img width="301" height="499" alt="image" src="https://github.com/user-attachments/assets/5f46ee01-d4cd-4309-8158-7b90cdb828c8" />
 
 ### Vaccination Reminder
@@ -215,6 +223,14 @@ ShishuSneh/
 
 ---
 
+## Developer
+
+Developed by Yashaswi C Shetty
+
+Internship Project – MindMatrix
+
+---
+
 ## App Highlights
 
 - Simple and mother-friendly UI
@@ -228,3 +244,4 @@ ShishuSneh/
 ## Developed For
 
 Healthcare support for new mothers and child wellness monitoring during the first year.
+
