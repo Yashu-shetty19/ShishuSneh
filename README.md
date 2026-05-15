@@ -88,7 +88,7 @@ This project aims to:
 
 ## Project structure
 
-ShishuSneh/
+ShishuSneh/                                                                                                                                                                  
 ├── build.gradle.kts                 (root)
 ├── settings.gradle.kts
 ├── gradle.properties
