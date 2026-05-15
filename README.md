@@ -85,6 +85,52 @@ This project aims to:
 - Support healthcare access in rural areas
 
 ---
+
+## Project structure
+
+ShishuSneh/
+├── build.gradle.kts                 (root)
+├── settings.gradle.kts
+├── gradle.properties
+├── gradle/wrapper/gradle-wrapper.properties
+└── app/
+    ├── build.gradle.kts
+    ├── proguard-rules.pro
+    └── src/main/
+        ├── AndroidManifest.xml
+        ├── java/com/shishusneh/app/
+        │   ├── ShishuSnehApp.kt           (Application — creates notif channel)
+        │   ├── data/                      (Repository + Vaccine/Milestone catalogs)
+        │   ├── db/                        (Room DB, entities, DAOs)
+        │   ├── notification/              (NotificationHelper)
+        │   ├── worker/                    (VaccinationReminderWorker, BootReceiver)
+        │   ├── util/DateUtils.kt
+        │   └── ui/
+        │       ├── onboarding/            (OnboardingActivity + ViewModel)
+        │       ├── dashboard/             (MainActivity + DashboardFragment)
+        │       ├── growth/                (Fragment + ViewModel + Adapter)
+        │       ├── vaccines/              (Fragment + ViewModel + Adapter)
+        │       ├── feeding/               (Fragment + Adapter, swipeable cards)
+        │       └── milestones/            (Fragment + ViewModel + Adapter)
+        └── res/
+            ├── layout/                    (activity & fragment & item XMLs)
+            ├── menu/bottom_nav.xml
+            ├── navigation/nav_graph.xml
+            ├── drawable/                  (bg_card_, ic_)
+            ├── values/                    (colors.xml, strings.xml, themes.xml)
+            └── mipmap-anydpi-v26/         (launcher icon)
+
+---
+
+
+## App Screenshots
+
+### Splash Screen
+![Splash Screen](<img width="361" height="799" alt="splash screen" src="https://github.com/user-attachments/assets/9bb90760-9930-4707-bb88-468db6f0c4c2" />)
+
+
+---
+
 ## How to Install the App on Mobile
 
 1. Connect your Android phone to the computer using USB.
