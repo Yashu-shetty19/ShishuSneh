@@ -90,9 +90,13 @@ This project aims to:
 
 ShishuSneh/                                                                                                                                                                  
 ├── build.gradle.kts                 (root)
+
 ├── settings.gradle.kts
+
 ├── gradle.properties
+
 ├── gradle/wrapper/gradle-wrapper.properties
+
 └── app/
 
     ├── build.gradle.kts
@@ -151,7 +155,8 @@ ShishuSneh/
 ## App Screenshots
 
 ### Splash Screen
-![Splash Screen]
+![Splash Screen](<img width="361" height="799" alt="WhatsApp Image 2026-05-15 at 10 50 24 AM" src="https://github.com/user-attachments/assets/4148d984-1e87-4cfc-b2f7-7ee309fcec6b" />)
+
 
 ---
 
