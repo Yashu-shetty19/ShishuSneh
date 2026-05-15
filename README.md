@@ -156,16 +156,22 @@ ShishuSneh/
 
 ### Splash Screen
 <img width="311" height="499" alt="splash screen" src="https://github.com/user-attachments/assets/8c4020d5-7f40-442a-9685-2c2589fb116b" />
+
 ### Login
 <img width="308" height="499" alt="image" src="https://github.com/user-attachments/assets/c4e14b31-d953-4639-915c-749222b665e4" />
+
 ### Dashboard
 <img width="311" height="499" alt="image" src="https://github.com/user-attachments/assets/969d150e-bdfc-4071-bec4-2094ad5a849b" />
+
 ### Growth Tracker
 <img width="305" height="499" alt="WhatsApp Image 2026-05-15 at 11 04 41 AM" src="https://github.com/user-attachments/assets/0ee21741-be80-48fc-bc90-37f8b1d27bc4" />
+
 ### Wisdom
 <img width="303" height="499" alt="image" src="https://github.com/user-attachments/assets/5f46ee01-d4cd-4309-8158-7b90cdb828c8" />
+
 ### Vaccination Reminder
 <img width="302" height="499" alt="WhatsApp Image 2026-05-15 at 11 07 39 AM" src="https://github.com/user-attachments/assets/8dc1fd2e-af86-4141-8a79-b1ac899954b4" />
+
 ### Milestones
 <img width="301" height="499" alt="image" src="https://github.com/user-attachments/assets/a1ddbf30-144a-4de6-8b46-fbd40265ed09" />
 
