@@ -126,8 +126,7 @@ ShishuSneh/
 ## App Screenshots
 
 ### Splash Screen
-![Splash Screen](<img width="361" height="799" alt="splash screen" src="https://github.com/user-attachments/assets/9bb90760-9930-4707-bb88-468db6f0c4c2" />)
-
+![Splash Screen]
 
 ---
 
