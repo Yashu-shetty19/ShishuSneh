@@ -155,7 +155,7 @@ ShishuSneh/
 ## App Screenshots
 
 ### Splash Screen
-![Splash Screen](<img width="361" height="799" alt="WhatsApp Image 2026-05-15 at 10 50 24 AM" src="https://github.com/user-attachments/assets/4148d984-1e87-4cfc-b2f7-7ee309fcec6b" />)
+![Splash Screen]<img width="361" height="799" alt="WhatsApp Image 2026-05-15 at 10 50 24 AM" src="https://github.com/user-attachments/assets/4148d984-1e87-4cfc-b2f7-7ee309fcec6b" />
 
 
 ---
