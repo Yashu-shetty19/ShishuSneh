@@ -90,13 +90,9 @@ This project aims to:
 
 ShishuSneh/                                                                                                                                                                  
 ├── build.gradle.kts                 (root)
-
 ├── settings.gradle.kts
-
 ├── gradle.properties
-
 ├── gradle/wrapper/gradle-wrapper.properties
-
 └── app/
 
     ├── build.gradle.kts
